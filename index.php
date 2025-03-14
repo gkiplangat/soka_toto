@@ -9,11 +9,11 @@ include "includes/header.php"
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="w-100" src="img/banner_1.jpg" alt="Image" />
+                <img class="w-100" src="img//banner_3.JPG" alt="Image" />
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-lg-7 pt-5 mt-5">
+                            <div class="col-lg-7 pt-5">
                                 <h1 class="display-4 text-white mb-3 animated slideInDown">
                                     Soka Toto Muda Initiative Trust
                                 </h1>
@@ -29,11 +29,11 @@ include "includes/header.php"
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="img/banner_1.jpg" alt="Image" />
+                <img class="w-100" src="img/banner_3.JPG" alt="Image" />
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-lg-7 pt-5 mt-5">
+                            <div class="col-lg-7 pt-5">
                                 <h1 class="display-4 text-white mb-3 animated slideInDown">
                                     Our Vision Statement
                                 </h1>
@@ -54,7 +54,7 @@ include "includes/header.php"
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-lg-7 pt-5 mt-5">
+                            <div class="col-lg-7 pt-5">
                                 <h1 class="display-4 text-white mb-3 animated slideInDown">
                                     Our Mission Statement
                                 </h1>
@@ -87,7 +87,7 @@ include "includes/header.php"
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="position-relative overflow-hidden h-100" style="min-height: 400px">
-                    <img class="position-absolute w-100 h-100 pt-5 pe-5" src="img/about.jpg" alt=""
+                    <img class="position-absolute w-100 h-100 pt-5 pe-5" src="img/about.JPG" alt=""
                         style="object-fit: cover" />
                 </div>
             </div>
@@ -126,105 +126,92 @@ include "includes/header.php"
     <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px">
             <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">
-                What We Do
+                Our Programs
             </div>
-            <h1 class="display-6 mb-5">Learn More What We Do And Get Involved</h1>
+            <h1 class="display-6 mb-5">Learn More About Our Programs</h1>
         </div>
-        <!--What We do Row 1-->
+        <!-- Programs Row 1 -->
         <div class="row g-3 justify-content-center mb-3">
 
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                    <h4 class="mb-3">Children Evangelism & Outreach</h4>
+                    <h4 class="mb-3">Sports</h4>
                     <p class="mb-4">
-                        We evangelize to children in primary schools and neighborhoods and host dedicated crusades for
-                        them. Our goal is to instill moral and spiritual values from a young age.
+                        We nurture children’s physical and mental well-being through football and other sports, focusing
+                        on teamwork, discipline, and personal growth.
                     </p>
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                    <h4 class="mb-3">High School Ministry</h4>
+                    <h4 class="mb-3">Creative Arts</h4>
                     <p class="mb-4">
-                        We engage high school students through weekend challenges, seminars, Sunday services,
-                        discipleship, and worship experiences. These programs aim to nurture their spiritual growth and
-                        equip them with life skills for a fulfilling future.
+                        We offer opportunities in music, dance, elocution, and instrument learning to help children
+                        express themselves creatively and explore their artistic talents.
                     </p>
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                    <h4 class="mb-3">University Outreaches</h4>
+                    <h4 class="mb-3">Teen Mothers Program</h4>
                     <p class="mb-4">
-                        We disciple and train university students to become spiritually, socially, financially, and
-                        academically empowered individuals. Our focus is on developing well-rounded citizens capable of
-                        making a positive impact in their communities.
+                        We empower teen mothers to overcome challenges such as stigma and financial instability by
+                        providing financial training, vocational skills, mentorship, and psychosocial support, ensuring
+                        a better future for them and their children.
                     </p>
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                    <h4 class="mb-3">Street Evangelism</h4>
+                    <h4 class="mb-3">Outreach and Discipleship</h4>
                     <p class="mb-4">
-                        We conduct weekly street evangelism in Nairobi, boldly proclaiming the gospel to diverse
-                        audiences. This outreach focuses on connecting with individuals who may not attend formal church
-                        settings.
+                        Through Bible stories for younger children and Bible study for older ones, we foster spiritual
+                        growth and a strong sense of moral values.
                     </p>
                 </div>
             </div>
         </div>
 
-        <!--What We do Row 2-->
+        <!-- Programs Row 2 -->
         <div class="row g-3 justify-content-center mb-3">
 
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                    <h4 class="mb-3">Prison Ministry</h4>
+                    <h4 class="mb-3">Digital Literacy</h4>
                     <p class="mb-4">
-                        Through prison visits, we share messages of hope, salvation, and redemption with those
-                        incarcerated. These engagements aim to inspire transformation and reintegration into society.
+                        We equip children and teen mothers with essential digital skills to bridge the technology gap
+                        and prepare them for future opportunities.
                     </p>
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                    <h4 class="mb-3">Hospital Visits</h4>
+                    <h4 class="mb-3">Mentorship and Life Skills</h4>
                     <p class="mb-4">
-                        We visit hospitals to pray for the sick and preach messages of hope and encouragement. Our
-                        mission is to bring spiritual healing and comfort to patients and their families.
+                        We guide children and teens to make informed life choices by offering mentorship sessions and
+                        practical life skills training.
                     </p>
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                    <h4 class="mb-3">Crusade & Conferences</h4>
+                    <h4 class="mb-3">Career Talks</h4>
                     <p class="mb-4">
-                        We collaborate with churches and ministries to organize impactful crusades and conferences.
-                        These events serve as platforms for widespread evangelism and spiritual revival.
+                        We expose children to various career paths and opportunities, inspiring them to pursue their
+                        dreams with confidence and clarity.
                     </p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-
-                    <h4 class="mb-3">Professional Mentorship & Training</h4>
-                    <p class="mb-4">
-                        We provide training on professional conduct and navigating the corporate world effectively.
-                        These sessions empower participants to excel and lead in their respective fields.
-                    </p>
-
                 </div>
             </div>
         </div>
     </div>
+</div>
+</div>
 
-</div>
-</div>
 
 <!--Our Reach-->
 <div class="container my-5">
@@ -256,79 +243,6 @@ include "includes/header.php"
     </div>
 </div>
 
-
-
-<!--Include Donate Section-->
-<?php
-include "includes/donate.php"
-?>
-
-
-<!-- Testimonial Start -->
-<div class="container-xxl py-5">
-    <div class="container">
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px">
-            <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">
-                Testimonial
-            </div>
-
-        </div>
-        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-            <div class="testimonial-item text-center">
-                <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/calvin_br.jpg"
-                    style="width: 100px; height: 100px" />
-                <div class="testimonial-text rounded text-center p-4">
-                    <p>
-                        "To the glory of God through Kabarak BR I was able to be filled with the Holy Spirit with the
-                        evidence of speaking in tongues, and connected to a family of believers, discovered my identity
-                        in Christ and knew part of my purpose.Last but not least ,I was on the verge of giving up with
-                        education but during my quiet time the Lord impressed a scripture in my heart(Phil 1:6). I thank
-                        God I finally graduated. My sincere gratitude to Fly-m leadership, BR family"
-                    </p>
-                    <h5 class="mb-1">Calvin Odhiambo</h5>
-                    <span class="fst-italic">Breach Repairers</span>
-                </div>
-            </div>
-            <div class="testimonial-item text-center">
-                <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/ezina_br.jpg"
-                    style="width: 100px; height: 100px" />
-                <div class="testimonial-text rounded text-center p-4">
-                    <p>
-                        "Breach Repairers was the turning point in my spiritual and personal journey, transforming me
-                        from a lost and unsure believer into a confident leader grounded in faith. It provided a family
-                        that nurtured me through mentorship, fellowship, and programs like missions, helping me overcome
-                        fears, deepen my relationship with God, and discover my purpose. As a leader, I learned to serve
-                        with love and humility, positively influencing others while gaining lifelong friendships and a
-                        commitment to impact lives for Christ."
-                    </p>
-                    <h5 class="mb-1">Ezinah Momanyi</h5>
-                    <span class="fst-italic">Breach Repairers</span>
-                </div>
-            </div>
-            <div class="testimonial-item text-center">
-                <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/gideon_alumni.jpg"
-                    style="width: 100px; height: 100px" />
-                <div class="testimonial-text rounded text-center p-4">
-                    <p>
-                        "FLY-M’s Alumni Association has been an incredible support
-                        system as I transitioned from student life into the professional
-                        world. The fellowship provides not only spiritual encouragement
-                        but also guidance on how to integrate faith into my career and
-                        relationships. The seminars and networking events help me stay
-                        grounded in Christ while navigating the complexities of work,
-                        family, and society. Being part of this community reminds me
-                        that no matter how far I go in life, I always have a place where
-                        I belong—a place where faith and professional excellence go hand
-                        in hand."
-                    </p>
-                    <h5 class="mb-1">Gideon Kiplangat</h5>
-                    <span class="fst-italic">FLY-M Alumni</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Testimonial End -->
 
 <!--Include Footer Section-->
 <?php

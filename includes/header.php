@@ -88,7 +88,7 @@
                         Us</a>
                 </div>
                 <div class="d-none d-lg-flex ms-2">
-                    <a class="btn py-2 px-3 text-white " href="donate">
+                    <a class="btn py-2 px-3 text-white " href="https://www.mchanga.africa/fundraiser/107130">
                         Donate
                         <div class="d-inline-flex btn-sm-square border border-dark rounded-circle ms-2">
                             <i class="fa fa-arrow-right text-white"></i>
