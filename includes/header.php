@@ -29,6 +29,36 @@
     <link rel="shortcut icon" href="img/sk_logo.png" type="image/x-icon" />
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+
+    <style>
+    .play-btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #FFA500;
+        font-size: 60px;
+        color: #001D23;
+        border-radius: 50%;
+        border: none;
+        width: 120px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .play-btn:hover {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Hide the button when video is playing */
+    .hidden {
+        display: none;
+    }
+    </style>
 </head>
 
 <body>

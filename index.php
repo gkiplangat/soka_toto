@@ -85,12 +85,20 @@ include "includes/header.php"
 <div class="container-xxl py-5">
     <div class="container">
         <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-lg-6 wow fadeInUp position-relative" data-wow-delay="0.1s">
                 <div class="position-relative overflow-hidden h-100" style="min-height: 400px">
-                    <img class="position-absolute w-100 h-100 pt-5 pe-5" src="img/about.JPG" alt=""
-                        style="object-fit: cover" />
+                    <video id="myVideo" class="position-absolute w-100 h-100 pt-5 pe-5" style="object-fit: cover;">
+                        <source src="img/sk_video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
+                    <!-- Custom Play Button -->
+                    <button id="playButton" class="play-btn">
+                        ▶
+                    </button>
                 </div>
             </div>
+
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="h-100">
                     <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">
@@ -211,37 +219,6 @@ include "includes/header.php"
     </div>
 </div>
 </div>
-
-
-<!--Our Reach-->
-<!--<div class="container my-5">
-    <div class="row text-center">
-        <div class="col-md-3 col-6 mb-4">
-            <div class="countdown-item">
-                <h2 class="display-4 fw-bold">25+</h2>
-                <p class="text-muted">Universities</p>
-            </div>
-        </div>
-        <div class="col-md-3 col-6 mb-4">
-            <div class="countdown-item">
-                <h2 class="display-4 fw-bold">50+</h2>
-                <p class="text-muted">High Schools</p>
-            </div>
-        </div>
-        <div class="col-md-3 col-6 mb-4">
-            <div class="countdown-item">
-                <h2 class="display-4 fw-bold">20+</h2>
-                <p class="text-muted">Primary Schools</p>
-            </div>
-        </div>
-        <div class="col-md-3 col-6 mb-4">
-            <div class="countdown-item">
-                <h2 class="display-4 fw-bold">10+</h2>
-                <p class="text-muted">TVETs & MTCs</p>
-            </div>
-        </div>
-    </div>
-</div>-->
 
 
 <!--Include Footer Section-->
