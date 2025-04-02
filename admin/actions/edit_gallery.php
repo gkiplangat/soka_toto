@@ -4,7 +4,6 @@ include '../config.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $id = intval($_POST['id']);
-    $department = htmlspecialchars(trim($_POST['department_assoc']));
     $uploadsDir = "../../uploads/";
 
     $photoFields = ['photo_one', 'photo_two', 'photo_three', 'photo_four'];
@@ -42,11 +41,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Update the database
     $stmt = $conn->prepare(
-        "UPDATE gallery SET department_assoc = ?, photo_one = ?, photo_two = ?, photo_three = ?, photo_four = ? WHERE id = ?"
+        "UPDATE gallery SET photo_one = ?, photo_two = ?, photo_three = ?, photo_four = ? WHERE id = ?"
     );
     $stmt->bind_param(
-        "sssssi",
-        $department,
+        "ssssi",
         $uploadedPhotos['photo_one'],
         $uploadedPhotos['photo_two'],
         $uploadedPhotos['photo_three'],

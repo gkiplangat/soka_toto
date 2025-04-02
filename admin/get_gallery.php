@@ -3,7 +3,7 @@
 include 'config.php';
 
 // SQL query to fetch data from the 'gallery' table
-$sql = "SELECT id, department_assoc, photo_one, photo_two, photo_three, photo_four FROM gallery"; 
+$sql = "SELECT id, photo_one, photo_two, photo_three, photo_four FROM gallery"; 
 
 // Execute the query
 $result = $conn->query($sql);
@@ -12,14 +12,12 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
         $id = $row['id'];
-        $department = htmlspecialchars($row['department_assoc']);
         $photo_one = $row['photo_one'];
         $photo_two = $row['photo_two'];
         $photo_three = $row['photo_three'];
         $photo_four = $row['photo_four'];
 
         echo "<tr>";
-        echo "<td>" . $department . "</td>";
         echo "<td><img src='../uploads/" . htmlspecialchars($photo_one) . "' alt='Photo 1' width='100' height='100'></td>";
         echo "<td><img src='../uploads/" . htmlspecialchars($photo_two) . "' alt='Photo 2' width='100' height='100'></td>";
         echo "<td><img src='../uploads/" . htmlspecialchars($photo_three) . "' alt='Photo 3' width='100' height='100'></td>";
@@ -36,17 +34,12 @@ if ($result->num_rows > 0) {
             <div class='modal-dialog'>
                 <div class='modal-content'>
                     <div class='modal-header'>
-                        <h5 class='modal-title text-light' id='editModalLabel$id'>Edit Gallery - $department</h5>
+                        <h5 class='modal-title text-light' id='editModalLabel$id'>Edit Gallery</h5>
                         <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                     </div>
                     <div class='modal-body'>
                         <form action='actions/edit_gallery.php' method='POST' enctype='multipart/form-data'>
                             <input type='hidden' name='id' value='$id'>
-
-                            <div class='mb-3'>
-                                <label for='department$id' class='form-label'>Department</label>
-                                <input type='text' class='form-control' id='department$id' name='department_assoc' value='$department' required>
-                            </div>
 
                             <div class='mb-3'>
                                 <label for='photoOne$id' class='form-label'>Photo 1</label>
@@ -89,7 +82,7 @@ if ($result->num_rows > 0) {
                         <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
                     </div>
                     <div class='modal-body'>
-                        Are you sure you want to delete the record for <strong>$department</strong>?
+                        Are you sure you want to delete the record for <strong>These Images</strong>?
                     </div>
                     <div class='modal-footer'>
                         <button type='button' class='btn btn-secondary' data-bs-dismiss='modal'>Cancel</button>
