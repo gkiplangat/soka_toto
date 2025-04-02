@@ -9,10 +9,23 @@
                        a brighter future.
                    </p>
                    <div class="d-flex pt-2">
-                       <a class="text-white-50 ms-3" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                       <a class="text-white-50 ms-3" href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                       <a class="text-white-50 ms-3" href="#" target="_blank"><i class="fab fa-youtube"></i></a>
-                       <a class="text-white-50 ms-3" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                       <a class="text-white ms-3" href="https://www.facebook.com/profile.php?id=61566200217484"
+                           target="_blank">
+                           <i class="fab fa-facebook-f"></i>
+                       </a>
+                       <a class="text-white ms-3" href="https://x.com/SokaToto7779?t=FVXzAOleEynT5uazhoyzYA&s=09"
+                           target="_blank">
+                           <i class="fab fa-twitter"></i>
+                       </a>
+                       <a class="text-white ms-3"
+                           href="https://youtube.com/@sokatotomudainitiativetrust?si=0RUmRA2jmNP1uw6n" target="_blank">
+                           <i class="fab fa-youtube"></i>
+                       </a>
+                       <a class="text-white ms-3" href="https://www.instagram.com/sokatoto2024?igsh=YzljYTk1ODg3Zg=="
+                           target="_blank">
+                           <i class="fab fa-instagram"></i>
+                       </a>
+
                    </div>
                </div>
                <div class="col-lg-3 col-md-6">

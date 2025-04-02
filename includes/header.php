@@ -75,10 +75,23 @@
             </div>
             <div class="col-lg-4 px-5 text-end">
                 <small>Follow us:</small>
-                <a class="text-white ms-3" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="text-white ms-3" href=""><i class="fab fa-twitter"></i></a>
-                <a class="text-white ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                <a class="text-white ms-3" href=""><i class="fab fa-instagram"></i></a>
+                <a class="text-white ms-3" href="https://www.facebook.com/profile.php?id=61566200217484"
+                    target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="text-white ms-3" href="https://x.com/SokaToto7779?t=FVXzAOleEynT5uazhoyzYA&s=09"
+                    target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a class="text-white ms-3" href="https://youtube.com/@sokatotomudainitiativetrust?si=0RUmRA2jmNP1uw6n"
+                    target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a class="text-white ms-3" href="https://www.instagram.com/sokatoto2024?igsh=YzljYTk1ODg3Zg=="
+                    target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
             </div>
         </div>
 
@@ -97,20 +110,9 @@
                     <a href="about"
                         class="nav-item nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'about' ? 'active' : ''; ?>">About</a>
 
-                    <!--
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">FLY-M Arms</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="#" class="dropdown-item">FLY-M Alumni</a>
-                        <a href="#" class="dropdown-item">FLY-M Breach Repairers</a>
-                        <a href="#" class="dropdown-item">FLY-M Junior Radicals</a>
-                        <a href="#" class="dropdown-item">FLY-M Lambs</a>
-                        <a href="#" class="dropdown-item">MTC & Tvets</a>
-                    </div>
-                </div>-->
-
                     <a href="news"
-                        class="nav-item nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'news' ? 'active' : ''; ?>">News</a>
+                        class="nav-item nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'news' ? 'active' : ''; ?>">Our
+                        Events</a>
                     <a href="gallery"
                         class="nav-item nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'gallery.php' ? 'active' : ''; ?>">Gallery</a>
                     <a href="contact"

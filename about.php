@@ -3,9 +3,9 @@
 include "includes/header.php"
 ?>
 <!-- Page Header Start -->
-<div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+<div class="container-fluid page-header mb-2 wow fadeIn" data-wow-delay="0.1s">
     <div class="container text-center">
-        <h1 class="display-4 text-white animated slideInDown mb-4">About Us</h1>
+        <h1 class="display-4 text-dark animated slideInDown mt-2">About Us</h1>
 
     </div>
 </div>
@@ -145,6 +145,59 @@ include "includes/header.php"
     </div>
 </div>
 </div>
+
+
+
+<?php
+        // Include the database configuration file
+        include 'admin/config.php';
+
+        // SQL query to fetch data from the 'team_members' table
+        $sql = "SELECT id, fullname, position, profile_picture FROM leaders";
+
+        // Execute the query
+        $result = $conn->query($sql);
+
+        // Check if there are results
+        if ($result->num_rows > 0) {
+            // Output the team members in Bootstrap cards
+            echo '<div class="container-xxl py-5">';
+            echo '    <div class="container">';
+            echo '        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px">';
+            echo '            <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">';
+            echo '                Our Team';
+            echo '            </div>';
+            echo '            <h1 class="display-6 mb-5">Meet Our Dedicated Team</h1>';
+            echo '        </div>';
+            echo '        <div class="row">';
+
+            // Loop through each team member and display in a card
+            while ($row = $result->fetch_assoc()) {
+                echo '            <div class="col-lg-3 col-md-6 mb-4 ">';
+                echo '                <div class="card shadow-sm border-0 rounded">';
+                echo '                    <img src="uploads/' . htmlspecialchars($row['profile_picture']) . '" class="card-img-top" alt="Profile Picture">';
+                echo '                    <div class="card-body text-center">';
+                echo '                        <h5 class="card-title">' . htmlspecialchars($row['fullname']) . '</h5>';
+                echo '                        <p class="card-text text-muted">' . htmlspecialchars($row['position']) . '</p>';
+                echo '                    </div>';
+                echo '                </div>';
+                echo '            </div>';
+            }
+
+            echo '        </div>'; // End row
+            echo '    </div>';
+            echo '</div>';
+        } else {
+            // If no data is found
+            echo "<p>No team members found</p>";
+        }
+
+        // Close the database connection
+        $conn->close();
+        ?>
+
+
+
 
 <!--Include footer Section -->
 <?php

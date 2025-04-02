@@ -9,7 +9,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         message: document.getElementById("message").value,
     };
 
-    emailjs.send("service_dzpgxgo", "template_wb82c4t", params)
+    emailjs.send("service_uluox74", "template_unc9wlj", params)
         .then(function(response) {
             alert("Email Sent Successfully");
             console.log('SUCCESS!', response.status, response.text);
