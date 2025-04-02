@@ -30,6 +30,12 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
 
+    <script type="text/javascript">
+    (function() {
+        emailjs.init("f-wcy3HM2D6-RlWPH"); // Replace with your EmailJS Public Key
+    })();
+    </script>
+
     <style>
     .play-btn {
         position: absolute;

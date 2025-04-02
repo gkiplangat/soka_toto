@@ -3,8 +3,8 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     event.preventDefault(); // Prevent form submission
 
     const params = {
-        name: document.getElementById("name").value,
-        email: document.getElementById("email").value,
+        name: document.getElementById("from_name").value,
+        email: document.getElementById("from_email").value,
         subject: document.getElementById("subject").value,
         message: document.getElementById("message").value,
     };
