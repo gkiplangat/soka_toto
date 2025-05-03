@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $venue = htmlspecialchars(trim($_POST['venue']));
     $date = htmlspecialchars(trim($_POST['date']));
     $time = htmlspecialchars(trim($_POST['event_time']));
-    
+
     // Handle the photo upload
     $uploadsDir = "../../uploads/";
     $uploadedPhoto = null;

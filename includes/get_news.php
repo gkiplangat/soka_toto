@@ -15,7 +15,7 @@ $sql = "SELECT id, department_assoc, event_title, event_description, venue, date
 $result = $conn->query($sql);
 ?>
 
-<div class="container mt-5">
+<div class="container">
     <h1 class="mb-4">What's New</h1>
 
     <div class="row">
@@ -34,14 +34,14 @@ $result = $conn->query($sql);
                     $formatted_event_date = $event_datetime->format('Y-m-d H:i A'); // Example: 2025-02-13 03:30 PM
                     ?>
         <!-- Event Card -->
-        <div class="col-md-4 mb-4">
+        <div class="col-md-4">
             <!-- 3 columns for 4 events per row -->
             <div class="card h-100">
                 <div class="row g-0">
                     <div class="col-12">
                         <!-- Event Image -->
                         <img src="uploads/<?php echo htmlspecialchars($row['photo']); ?>"
-                            class="img-fluid rounded-start" alt="Event Photo">
+                            class="img-fluid rounded-start" alt="Event Photo" width="300" height="300">
                     </div>
                     <div class="col-12 mt-3">
                         <div class="card-body">

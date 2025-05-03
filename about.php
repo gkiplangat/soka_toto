@@ -3,16 +3,16 @@
 include "includes/header.php"
 ?>
 <!-- Page Header Start -->
-<div class="container-fluid page-header mb-2 wow fadeIn" data-wow-delay="0.1s">
+<div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
     <div class="container text-center">
-        <h1 class="display-4 text-dark animated slideInDown mt-2">About Us</h1>
+        <h2 class="display-4 text-dark animated slideInDown mt-2">About Us</h2>
 
     </div>
 </div>
 <!-- Page Header End -->
 
 <!-- About Start -->
-<div class="container-xxl py-5" id="who_are_we">
+<div class="container-xxl" id="who_are_we">
     <div class="container">
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">

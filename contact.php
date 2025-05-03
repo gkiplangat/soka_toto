@@ -209,12 +209,21 @@
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 450px">
                     <div class="position-relative rounded overflow-hidden h-100">
-                        <iframe class="position-relative w-100 h-100"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8034729386954!2d36.8184897732075!3d-1.2923217356290553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d5dfa419c9%3A0x2231b24ba92f77a4!2sCommerce%20house!5e0!3m2!1sen!2ske!4v1735057952241!5m2!1sen!2ske"
-                            frameborder="0" style="min-height: 450px; border: 0" allowfullscreen="" aria-hidden="false"
-                            tabindex="0"></iframe>
+                        <div style="position: relative; padding-bottom: 75%; height: 0; overflow: hidden;">
+                            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;"
+                                loading="lazy" allowfullscreen
+                                src="https://maps.google.com/maps?q=Apha+GLORY+COMMUNITY+EDUCATION+CENTER-+KABIRIA+KENYA&z=10&output=embed">
+                            </iframe>
+                        </div>
+                        <a href="https://www.ohiovalleyeats.com/" rel="noopener" target="_blank"
+                            style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;">
+                            ohiovalleyeats.com
+                        </a>
                     </div>
                 </div>
+
+
+
             </div>
         </div>
     </div>

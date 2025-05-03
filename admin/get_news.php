@@ -125,4 +125,3 @@ if ($result->num_rows > 0) {
 
 // Close the database connection
 $conn->close();
-?>

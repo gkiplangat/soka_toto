@@ -13,7 +13,7 @@ if (isset($_GET['id'])) {
     $stmt->execute();
     $stmt->store_result();
     $stmt->bind_result($photo);
-    
+
     // If event exists
     if ($stmt->fetch()) {
         // Delete the event from the database
@@ -37,9 +37,9 @@ if (isset($_GET['id'])) {
 
         $deleteStmt->close();
     } else {
-            // Redirect with error flag
-            header("Location: ../news.php?error&type=NewsDelete");
-            exit();
+        // Redirect with error flag
+        header("Location: ../news.php?error&type=NewsDelete");
+        exit();
     }
 
     $stmt->close();
@@ -50,4 +50,3 @@ if (isset($_GET['id'])) {
 }
 
 exit();
-?>

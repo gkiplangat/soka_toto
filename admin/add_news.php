@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $event_description = mysqli_real_escape_string($conn, $_POST['event_description']);
     $venue = mysqli_real_escape_string($conn, $_POST['venue']);
     $date = mysqli_real_escape_string($conn, $_POST['date']);
-    $time= mysqli_real_escape_string($conn, $_POST['event_time']);
+    $time = mysqli_real_escape_string($conn, $_POST['event_time']);
 
     // Handle file uploads
     $photo = uniqid() . '_' . $_FILES['photo']['name'];
@@ -66,4 +66,3 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 } else {
     echo "<script>alert('Invalid request.'); window.location.href = 'gallery_page.php';</script>";
 }
-?>
